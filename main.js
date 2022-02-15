@@ -61,3 +61,11 @@ alert(`
     - envio: $${envio}
     Total = $${total} 
 `);
+
+const arr1 = new Array("familia", "sociedades", "comercio", "empresas", "sucesiones")
+
+console.log("recorriendo un array con un for");
+
+for(let i=0; i<arr1.length; i+=1){
+    document.write(arr1[i] + "<br>");
+}
